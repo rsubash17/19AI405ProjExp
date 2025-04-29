@@ -10,6 +10,7 @@ Further now we see if the current position of the grid has a value greater than 
 After checking if it is a safe place, we move to the next column and then assign the num in the current (row, col) position of the grid. Later we check for the next possibility with the next column.
 As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value
 PrograM:
+'''
 M = 9
 def puzzle(a):
 	for i in range(M):
@@ -70,9 +71,8 @@ if (Suduko(grid, 0, 0)):
 	puzzle(grid)
 else:
 	print("Solution does not exist:(")
+ '''
  
-OUTPUT:
-image
 
 RESULT:
 Thus the python program to develop the Sudoku Solver From Scratch is executed successfully
